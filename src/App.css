@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+  color: white;
+}
+
+.tcell {
+  display: table-cell;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+}
+
+.Table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.tr {
+  display: table-row;
+}
+
+.footer {
+  color: white;
+  font-size: 12px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

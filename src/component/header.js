@@ -8,11 +8,12 @@ const sty = {
 const cell = {
   display: "table-cell",
   width: "150px",
-  font: "18px",
   color: "white",
+  fontWeight: "bold",
+  fontSize: "18px",
 };
 
-const Entry = ({ currency, buy, rate, sell }) => {
+const Header = ({ currency, buy, rate, sell }) => {
   return (
     <div style={sty}>
       <p style={cell}>{currency}</p>
@@ -23,4 +24,4 @@ const Entry = ({ currency, buy, rate, sell }) => {
   );
 };
 
-export default Entry;
+export default Header;
