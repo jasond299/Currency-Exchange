@@ -15,7 +15,6 @@ function App() {
         return res.json();
       })
       .then((data) => {
-        console.log(data);
         setEntries(data);
       });
   }, []);
